@@ -1,0 +1,45 @@
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+.contenedorHeader{
+    display: grid;
+    grid-template-columns: 3fr repeat(3, 1fr) 4fr repeat(7, 1fr);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+#tamañoImagenHeader {
+    width: 2em;
+}
+#tamañoLogo{
+    width: 14em;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.buscador{
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+    width: 40em; 
+    padding: 1em;
+    border-radius: 15% 15% 15% 15%;
+    gap: 1em;
+}
+#tamañoImagenBuscador {
+    height: 2em;
+    width: 2em;
+}
+.espacio {
+    display: flex;
+    height: 14em;
+}
+.contenedorFooter{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#tamañoImagenFooter {
+    width: 15em;
+}
